@@ -1,0 +1,16 @@
+name: MMOAddon
+version: '1.0'
+main: top.mcocet.mMOAddon.MMOAddon
+api-version: '1.20'
+folia-supported: true
+authors: [ MCOCET ]
+description: MMO系列插件扩展和Folia修复
+website: https://home.mcocet.top/
+loadbefore: [ MythicLib, MMOItems, MMOCore, MMOLib ]
+
+commands:
+  mmoaddon:
+    description: 打开 MMOAddon 插件物品浏览器
+    usage: /mmoaddon
+    permission: mmoaddon.admin
+    aliases: [ mmoa ]
